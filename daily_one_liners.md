@@ -79,8 +79,8 @@
 #### Print all the directories (including hidden)
 * find . -type d -print
 
-#### Search all the files in the current directory for the content 'TriggerExpression' 
-#### To handle spaces use 0 / output not contains new line and spaces
+###### Search all the files in the current directory for the content 'TriggerExpression' 
+###### To handle spaces use 0 / output not contains new line and spaces
 * find . -type f -print0 | xargs -0 grep 'TriggerExpression'
 
 #### Do Not handle spaces
