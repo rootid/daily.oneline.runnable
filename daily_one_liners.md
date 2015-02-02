@@ -168,8 +168,7 @@ the use of regex in the spec file
 
 delete from schema_name.table_name where <condition with non indexd column> order by <indexed column>
 
-
-###### list out spaces in GB
+#### List out spaces in GB
 
     du -h / | grep --perl-regexp "\d+G"
 
