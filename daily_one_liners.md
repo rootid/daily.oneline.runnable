@@ -89,6 +89,12 @@
 #### Search the hello in all the .sh files
 * find . -name "*.sh" | xargs grep "hello"
 
+#### replace all xml files content foo with bar
+*   find . -name "*xml" -type f -exec sed -i 's/foo/bar/g' {} \;
+*   {} : apply expression each found file
+*   \; : indicates end of exec
+
+
 
 ###BASH TODOs
 #### Use sourcing 
