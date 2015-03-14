@@ -178,3 +178,8 @@ delete from schema_name.table_name where <condition with non indexd column> orde
 
     du -h / | grep --perl-regexp "\d+G"
 
+
+#### list out the ip address from the ip.txt file 
+
+    grep --perl-regexp "\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b" ip.txt
+
